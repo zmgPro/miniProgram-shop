@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/trolley/trolley",
+    "pages/order/order",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#000000",
+    "selectedColor":"#ffff00",
+
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"/images/home.png",
+      "selectedIconPath":"/images/home-sel.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "/images/order.png",
+      "selectedIconPath": "/images/order-sel.png"
+    },
+    {
+      "pagePath": "pages/trolley/trolley",
+      "text": "购物车",
+      "iconPath": "/images/trolley.png",
+      "selectedIconPath": "/images/trolley-sel.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "用户中心",
+      "iconPath": "/images/user.png",
+      "selectedIconPath": "/images/user-sel.png"
+    }
+  ]
+  }
+}
